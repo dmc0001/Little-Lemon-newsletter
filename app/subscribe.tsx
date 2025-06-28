@@ -70,7 +70,7 @@ const styles = StyleSheet.create({
     textAlign: "center",
     fontSize: 18,
     fontWeight: "bold",
-    marginBottom: 20,
+    marginBottom: 30,
   },
   input: {
     height: 50,

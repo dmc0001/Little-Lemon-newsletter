@@ -1,7 +1,7 @@
 import { router } from "expo-router";
 import { Image, StyleSheet, Text, TouchableOpacity, View } from "react-native";
 
-export default function Index() {
+export default function WelcomeScreen() {
   return (
     <View style={styles.container}>
       <View style={styles.content}>
@@ -29,7 +29,6 @@ export default function Index() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: "space-between",
     padding: 20,
     backgroundColor: "#fff",
   },
@@ -50,7 +49,6 @@ const styles = StyleSheet.create({
   },
   buttonWrapper: {
     paddingBottom: 30,
-    alignItems: "center",
   },
   button: {
     width: "100%",
@@ -62,8 +60,6 @@ const styles = StyleSheet.create({
   buttonText: {
     color: "#fff",
     fontWeight: "bold",
-    justifyContent: "center",
-    alignItems: "center",
     fontSize: 16,
   },
 });
